@@ -1,0 +1,33 @@
+{
+  "name": "google-map-iframe",
+  "version": "1.0.0",
+  "description": "A free google map iframe generator for embaded map",
+  "main": "src/GoogleMapIframe.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahammadabdullah/google-map-iframe.git"
+  },
+  "keywords": [
+    "google map iframe generator",
+    "google map iframe",
+    "google map",
+    "google map package",
+    "google map react",
+    "google map iframe react",
+    "google map iframe generator react"
+  ],
+  "author": "Ahammad Abdullah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahammadabdullah/google-map-iframe/issues"
+  },
+  "homepage": "https://github.com/ahammadabdullah/google-map-iframe#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
