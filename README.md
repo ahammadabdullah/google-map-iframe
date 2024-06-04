@@ -8,12 +8,10 @@ You can install the package using npm:
 
 ```bash
 npm install googlemapiframe
-
+```
 
 ### Usage
 
-```markdown
-## Usage
 
 To use the GoogleMapIframe component, simply import it into your React component and provide the necessary props.
 
@@ -39,13 +37,12 @@ const ExampleComponent = () => {
 };
 
 export default ExampleComponent;
-
+```
 
 
 ### Integration
 
-```markdown
-### Integrate in the Main Application
+
 
 ```jsx
 // src/App.js
@@ -61,11 +58,9 @@ const App = () => {
 };
 
 export default App;
+```
 
 
-### Props
-
-```markdown
 ### Props
 
 The GoogleMapIframe component accepts the following props:
@@ -77,8 +72,6 @@ The GoogleMapIframe component accepts the following props:
 | zoom         | number | 13      | The zoom level of the map. Must be between 1 and 21.     |
 | businessName | string | -       | **Required.** The business name to be displayed in the map link. |
 
-
-
 ### Example Props
 
 ```jsx
@@ -88,12 +81,11 @@ The GoogleMapIframe component accepts the following props:
     zoom={13}
     businessName="My Business Name"
 />
-
+```
 
 ### Contributing
 
 ```markdown
-## Contributing
 
 If you would like to contribute to this project, please follow these steps:
 
@@ -103,3 +95,4 @@ If you would like to contribute to this project, please follow these steps:
 4. Commit your changes (`git commit -m 'Add some feature'`)
 5. Push to the branch (`git push origin feature/your-feature-name`)
 6. Create a new Pull Request
+```
